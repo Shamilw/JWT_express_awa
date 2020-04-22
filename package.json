@@ -1,0 +1,30 @@
+{
+  "name": "tr_pr_001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.4",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "ava": "^3.5.0",
+    "chai": "^4.2.0",
+    "supertest": "^4.0.2",
+    "mocha": "^7.1.0"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.js"
+    ]
+  }
+}
